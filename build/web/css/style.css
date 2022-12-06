@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+
+}
+.nome{
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 50%;
+}
+.container-logo {
+    width: 100%;
+    height: auto;
+    padding-right: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-logo {
+    margin-top: 30px;
+    width: 100%;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.nav-texto {
+    width: auto;
+    display: flex;
+    margin-top: 35px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.nav-texto>a {
+    text-decoration: none;
+    color: white;
+}
+
+.foto-fundo {
+    background-image: url(../imagens/2206_w026_n002_2110b_p1_2110.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+
+.textos {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    font-size: 60px;
+}
+
+.texto1 {
+    font-style: italic;
+    color: white;
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto2 {
+    color: white;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+    font-size: 50px;
+}
+
+.textos>a {
+    text-decoration: none;
+}
+
+.botao {
+    background-color: yellow;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.text-center {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+.text-center>h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+.text-center>h3 {
+    color: black;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom:50px;
+    background-color: black;
+}
+
+.cards {
+    margin: 10px 20px;
+    text-align: center;
+    float: left;
+}
+.nome{
+    
+}
+.cards>h4 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.cards>p {
+    font-size: 20px;
+}
+
+#bola1,
+#bola2,
+#bola3 {
+    width: 150px;
+    height: 150px;
+    color: black;
+    position: relative;
+}
+
+#icone1 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 47%;
+    top: 6%;
+    color: black;
+}
+
+#icone2 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 47.1%;
+    top: 40%;
+    color: black;
+}
+
+#icone3 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 47.2%;
+    top: 70%;
+    color: black;
+}
+
+.cor-portifolio {
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+
+.portifolio {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.portifolio>h1 {
+    font-size: 78px;
+}
+
+.portifolio>p {
+    font-size: 25px;
+    color: black;
+}
+
+.cards2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    
+}
+
+
+
+.card1 {
+    text-align: center;
+    float: left;
+    padding-left: 230px;
+    
+}
+
+
+.card2 {
+    text-align: center;
+    float: left;
+    padding-left: 15px;
+}
+
+.card3 {
+    text-align: center;
+    float: left;
+    padding-left: 15px;
+}
+
+.card1>h3,
+p {
+    margin-top: 10px;
+}
+
+.card2>h3,
+p {
+    margin-top: 10px;
+}
+
+.card3>h3,
+p {
+    margin-top: 10px;
+}
+
+

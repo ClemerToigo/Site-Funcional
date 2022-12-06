@@ -1,0 +1,63 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0526%2Fr702259_1296x729_16%2D9.jpg');
+    background-size: cover;
+
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 230px;
+    text-align: center;
+    
+
+}
+.um{
+    background-color: brown;
+    width: 50vh;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.dois{
+    background-color: activecaption;
+    width: 50vh;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-top: 4px;
+     margin-bottom: 10px;
+     font-size: 20px;
+}
+.tres{
+    background-color: darkslategrey;
+    width: 50vh;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-top: 4px;
+    font-size: 20px;
+}
+
+.um:hover{
+    background-color: cadetblue;
+}
+.dois:hover{
+    background-color: cadetblue;
+}
+.tres:hover{
+    background-color: cadetblue;
+}
